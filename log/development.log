@@ -1,0 +1,28 @@
+Started GET "/" for 127.0.0.1 at 2018-10-08 14:19:16 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/logu/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/logu/.rvm/gems/ruby-2.4.1/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (6.1ms)
+Completed 200 OK in 84ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 14:21:01 +0530
+  
+SyntaxError (/home/logu/rails/EBook_practise/RND/app/controllers/application_controller.rb:4: syntax error, unexpected ':', expecting keyword_end
+render html : "Welcom to home page"
+            ^):
+  
+app/controllers/application_controller.rb:4: syntax error, unexpected ':', expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-10-08 14:22:20 +0530
+Processing by ApplicationController#home as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-10-08 14:24:53 +0530
+Processing by ApplicationController#home as HTML
+  Rendering html template
+  Rendered html template (0.1ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
